@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+
+}
+
+.button-55:active {
+  box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+  outline: 0;
+}
+
+.button-55:not([disabled]):active {
+  box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+  transform: translate(2px, 2px);
+}
+
+.boxgradeint {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.733) 46.76%, rgba(102, 102, 102, 0) 90%);
+}
+
+.scroll_details {
+  direction: rtl;
+  margin-right: 10px;
+  max-height: 400px;
+  overflow-y: scroll;
+}
+
+.scroll_details>div {
+  direction: ltr;
+}
+
+.scroll_details::-webkit-scrollbar {
+  width: 5px;
+  padding: 10px;
+  background: #D9D9D9;
+}
+
+.scroll_details::-webkit-scrollbar-track {
+  width: 5px;
+
+}
+
+.scroll_details::-webkit-scrollbar-thumb {
+  width: 5px;
+  border-radius: 10px;
+  height: 351px;
+  background: #C0C0C0;
+
+}
+
+.landmark_Scroll::-webkit-scrollbar {
+  width: 5px;
+  background: black;
+}
+
+.landmark_Scroll::-webkit-scrollbar-track {
+  width: 5px;
+  padding: 10px 0;
+}
+
+.landmark_Scroll::-webkit-scrollbar-thumb {
+  width: 5px;
+  border-radius: 10px;
+  background: #C0C0C0;
+
+}
